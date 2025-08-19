@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7ecba5-2ac5-4419-a806-54992ef531f1" name="Changes" comment="" />
+    <list default="true" id="6c7ecba5-2ac5-4419-a806-54992ef531f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/ListaPrecios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/ListaPrecios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Categoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Factura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDetPk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/ListaPrecios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDetPk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/exceptions/apiexceptions/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v1/tsconfig.spec.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +65,12 @@
     &quot;assignee&quot;: &quot;ifazaSalcedo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ifazaSalcedo/pruebaPalermo.git",
-    "accountId": "416e093a-d43b-4de6-904f-7f5d40e73f97"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ifazaSalcedo/pruebaPalermo.git&quot;,
+    &quot;accountId&quot;: &quot;416e093a-d43b-4de6-904f-7f5d40e73f97&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -47,18 +86,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Maven.plantilla-rest-back [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/appJava/pruebas_tecnicas/palermo2/pruebaPalermo/bk"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.plantilla-rest-back [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/appJava/pruebas_tecnicas/palermo2/pruebaPalermo/bk&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
