@@ -34,6 +34,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 
 @Component({
   selector: 'app-pedidosdet',
+  standalone: true,
   imports: [FormsModule,MatTableModule,CurrencyPipe,
     MatCardModule, MatSelectModule, CommonModule,
     MatIconModule, MatFormFieldModule, MatInputModule],

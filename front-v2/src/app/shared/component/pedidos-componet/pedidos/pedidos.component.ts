@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-pedidos',
+  standalone: true,
   imports: [FormsModule, MatInputModule, MatSelectModule, MatDatepickerModule, MatButtonModule, MatDividerModule, MatIconModule, PedidosdetComponent, NgIf, AddproductoComponent],
   providers: [provideNativeDateAdapter()],
   templateUrl: './pedidos.component.html',

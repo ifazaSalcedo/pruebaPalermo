@@ -24,6 +24,7 @@ export interface PeriodicElement {
 
 @Component({
   selector: 'app-addproducto',
+  standalone: true,
   imports: [FormsModule, MatTableModule, MatButtonModule,
     MatDividerModule,  CommonModule, CurrencyPipe,
     MatIconModule, MatCardModule, MatFormFieldModule,
