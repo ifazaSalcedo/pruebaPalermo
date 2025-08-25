@@ -5,44 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7ecba5-2ac5-4419-a806-54992ef531f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/config/GlobalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/CategoriaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/ProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/repository/CategoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/repository/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/repository/ProductoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/categoria/CategoriaFindUCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/categoria/CategoriaSaveUCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/categoria/uc/CategoriaFindUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/categoria/uc/CategoriaSaveUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/cliente/ClienteFindByImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/cliente/ClinteSaveUCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/cliente/uc/ClienteFindUCService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/cliente/uc/ClienteSaveUCService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/pedido/PedidoFindByFecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/pedido/PedidoSaveUCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/pedido/uc/PedidoFindUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/pedido/uc/PedidoSaveUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/ProductoFindlUCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/ProductoSaveUCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/uc/ProductoFindUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/uc/ProductoSaveUC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/CategoriaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/ClienteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/ListaPrecioProductoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/PedidoDetalleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/PedidoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/ProductoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/mapper/CategoriaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/mapper/ClienteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/mapper/PedidoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/mapper/ProductoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/ListaPrecios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/ListaPrecios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Categoria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Factura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDetPk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/ListaPrecios.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Pedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDetPk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Producto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/exceptions/apiexceptions/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v1/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/PedidoDet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/PedidoDet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/PedidoDetPk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/PedidoDetPk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/entity/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Factura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDetPk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/FacturaDetPk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/ListaPrecios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/ListaPrecios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDetPk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/PedidoDetPk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/entity/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/exceptions/apiexceptions/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/exceptions/apiexceptions/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/plan/bk/PlantillaRestBackApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/addproducto/addproducto.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/addproducto/addproducto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/addproducto/addproducto.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/addproducto/addproducto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidos/pedidos.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidos/pedidos.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidos/pedidos.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidos/pedidos.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidosdet/pedidosdet.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidosdet/pedidosdet.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidosdet/pedidosdet.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/pedidosdet/pedidosdet.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/component/pedidos-componet/service/pedido.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/model/pedido-detalle-model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/model/pedido-model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/model/producto-lista-precio-model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/shared/model/producto-model.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +88,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -86,21 +123,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plantilla-rest-back [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/appJava/pruebas_tecnicas/palermo2/pruebaPalermo/bk&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Maven.plantilla-rest-back [clean].executor": "Run",
+    "Maven.plantilla-rest-back [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "repositorio-y-servicios",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/appJava/pruebas_tecnicas/palermo2/pruebaPalermo/bk",
+    "settings.editor.selected.configurable": "com.intellij.jpb.mapperDeclaration"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.plan.bk.data.services.cliente" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.plan.bk.data.services.producto" />
+      <recent name="com.plan.bk.data.services.cliente" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
+      <command value="mvn compile" />
     </option>
   </component>
   <component name="RunManager">

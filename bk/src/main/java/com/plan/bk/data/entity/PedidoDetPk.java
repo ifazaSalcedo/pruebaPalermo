@@ -18,5 +18,5 @@ public class PedidoDetPk implements Serializable {
     @Column(name = "ped_codigo")
     private Long idPedido;
     @Column(name = "prd_codigo")
-    private String idProducto;
+    private Long idProducto;
 }

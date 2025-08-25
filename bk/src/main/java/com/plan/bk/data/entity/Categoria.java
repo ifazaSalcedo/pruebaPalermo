@@ -1,6 +1,7 @@
 package com.plan.bk.data.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -8,6 +9,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "CATEGORIA")
 @NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 public class Categoria {
@@ -17,6 +19,5 @@ public class Categoria {
     private Long codigo;
     @Column(name = "cat_descripcion", nullable = false)
     private String descripcion;
-    @Column(name = "cat_cantidad_min")
-    private Integer cantiMinimaVenta;
+
 }
