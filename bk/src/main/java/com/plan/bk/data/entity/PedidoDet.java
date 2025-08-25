@@ -26,6 +26,8 @@ public class PedidoDet {
     private Pedido pedido;
     @Column(name = "detp_precio_uni", nullable = false)
     private BigInteger precioUnitario;
+    @Column(name = "detp_can", nullable = false)
+    private BigInteger cantidad;
     @Column(name = "detp_sub_total", nullable = false)
     private BigInteger precioSubTotal;
 }
