@@ -4,6 +4,7 @@ import com.plan.bk.data.entity.Producto;
 import com.plan.bk.data.repository.ProductoRepository;
 import com.plan.bk.data.services.producto.uc.ProductoFindUC;
 import com.plan.bk.dto.ProductoDto;
+import com.plan.bk.dto.dtopage.PageBasicResponse;
 import com.plan.bk.mapper.ProductoMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -29,8 +30,8 @@ public class ProductoFindlUCImpl implements ProductoFindUC {
     }
 
     @Override
-    public Page<ProductoDto> findAll(int page, int size) {
+    public PageBasicResponse<ProductoDto> findAll(int page, int size) {
         Page<Producto> listdb = repository.allProductoListaPrecios(PageRequest.of(page, size));
-        return listdb.map(ProductoMapper::toDto);
+        return PageBasicResponse.from(listdb.map(ProductoMapper::toDto));
     }
 }

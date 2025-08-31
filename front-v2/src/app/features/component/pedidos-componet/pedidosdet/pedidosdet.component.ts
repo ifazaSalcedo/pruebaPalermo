@@ -46,7 +46,9 @@ export class PedidosdetComponent {
 
 
   displayedColumns: string[] = ['position', 'symbol'];
+
   dataSource = ELEMENT_DATA;
+
   clickedRows = new Set<PeriodicElement>();
 
   pedidoDetalle: PedidoDetalle[] = [];

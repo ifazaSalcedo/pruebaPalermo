@@ -6,9 +6,8 @@ import java.math.BigInteger;
 
 @Value
 public class PedidoDetalleDto {
-     long idPedido;
-     long idProducto;
      int item;
+     long idProducto;
      BigInteger cantidad;
      BigInteger precioUnitario;
      BigInteger subTotal;
