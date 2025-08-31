@@ -46,8 +46,6 @@ export class PedidosComponent {
 
   }
 
-
-
   goPedido(){
     this.scena = 'pedidos';
   }

@@ -1,6 +1,7 @@
 import { BehaviorSubject } from "rxjs";
 import { Injectable } from "@angular/core";
 import { PedidoDetalle } from "../model/pedido-detalle-model";
+import { PedidoDetallePedido } from "../model/pedido-detalle-pedido.model";
 
 @Injectable({
   providedIn: 'root'
@@ -8,21 +9,22 @@ import { PedidoDetalle } from "../model/pedido-detalle-model";
 
 export class PedidoService {
 
-  private pedidoDetalleSource = new BehaviorSubject<PedidoDetalle[]>([]);
+  private pedidoDetalleSource = new BehaviorSubject<PedidoDetallePedido[]>([]);
+
   pedidoDetalle$ = this.pedidoDetalleSource.asObservable();
 
 
   constructor() { }
 
-  getPedidoDetalle(): PedidoDetalle[] {
+  getPedidoDetalle(): PedidoDetallePedido[] {
     return this.pedidoDetalleSource.value;
   }
 
-  setPedidoDetalle(detalle: PedidoDetalle[]): void {
+  setPedidoDetalle(detalle: PedidoDetallePedido[]): void {
     this.pedidoDetalleSource.next(detalle);
   }
 
-  addProducto(producto: PedidoDetalle): void {
+  addProducto(producto: PedidoDetallePedido): void {
     if (producto.cantidad && producto.cantidad > 0) {
       const pedidos = [...this.pedidoDetalleSource.value, producto];
       this.pedidoDetalleSource.next(pedidos);

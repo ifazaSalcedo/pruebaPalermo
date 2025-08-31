@@ -14,9 +14,8 @@ public class PedidoMapper {
                 pedido.getDetalle().stream().map(PedidoMapper::toDetalleDto).toList());
     }
     private static PedidoDetalleDto toDetalleDto(PedidoDet detalle){
-        return new PedidoDetalleDto(detalle.getPk().getIdPedido(),
+        return new PedidoDetalleDto(detalle.getPk().getItem(),
                 detalle.getPk().getIdProducto(),
-                detalle.getPk().getItem(),
                 detalle.getCantidad(),
                 detalle.getPrecioUnitario(),
                 detalle.getPrecioSubTotal());

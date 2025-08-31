@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { ApiMessageError } from "./api_error.model";
 
 @Injectable({ providedIn: 'root' })
 
@@ -13,6 +14,6 @@ export class ErrorApiHandlerService {
     console.error('API Error:', apiError);
     return apiError;
   }
-  
+
 
 }

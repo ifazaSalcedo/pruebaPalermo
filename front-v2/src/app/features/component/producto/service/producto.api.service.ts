@@ -1,6 +1,11 @@
 import { HttpClient } from "@angular/common/http";
 import { catchError, Observable, throwError } from "rxjs";
 import { ErrorApiHandlerService } from "../../../../core/error/api/api_error.service";
+import { Injectable } from "@angular/core";
+
+@Injectable({
+  providedIn: 'root'
+})
 
 export class ProductoApiService {
 

@@ -2,6 +2,7 @@ package com.plan.bk.controller;
 
 import com.plan.bk.data.services.producto.uc.ProductoFindUC;
 import com.plan.bk.dto.ProductoDto;
+import com.plan.bk.dto.dtopage.PageBasicResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.web.PagedResourcesAssembler;
@@ -22,15 +23,11 @@ public class ProductoController {
     private final PagedResourcesAssembler<ProductoDto> pagedResourcesAssembler;
 
     @GetMapping("/listado-productos")
-    public ResponseEntity<PagedModel<EntityModel<ProductoDto>>> getListadoProductos(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "50") int size){
+    public ResponseEntity<?> getListadoProductos(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "50") int size){
 
-        Page<ProductoDto> listaProductos = service.findAll(page, size);
+        PageBasicResponse<ProductoDto> listaProductos = service.findAll(page, size);
 
-        if(listaProductos.isEmpty()){
-            return ResponseEntity.noContent().build();
-        }
-
-        return ResponseEntity.ok(pagedResourcesAssembler.toModel(listaProductos, EntityModel::of));
+        return ResponseEntity.ok(listaProductos);
 
     }
 
