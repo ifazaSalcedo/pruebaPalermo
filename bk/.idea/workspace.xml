@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7ecba5-2ac5-4419-a806-54992ef531f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/config/ServerCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/dtopage/PageBasicResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/config/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/config/GlobalConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/ProductoFindlUCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/ProductoFindlUCImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/uc/ProductoFindUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/data/services/producto/uc/ProductoFindUC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/PedidoDetalleDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/PedidoDetalleDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/mapper/PedidoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/mapper/PedidoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/config/GlobalConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/config/GlobalConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/controller/ProductoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/services/producto/ProductoFindlUCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/services/producto/ProductoFindlUCImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/data/services/producto/uc/ProductoFindUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/data/services/producto/uc/ProductoFindUC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/dto/PedidoDetalleDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/dto/PedidoDetalleDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/mapper/PedidoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/plan/bk/mapper/PedidoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/core/error/api/api_error.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/core/error/api/api_error.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/core/error/api/api_error.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/core/error/api/api_error.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/model/pedido-detalle-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/model/pedido-detalle-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/pedidos/pedidos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/pedidos/pedidos.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/pedidosdet/pedidosdet.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/pedidosdet/pedidosdet.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/productoadd/addproducto.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/productoadd/addproducto.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/productoadd/addproducto.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/productoadd/addproducto.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/service/pedido.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/pedidos-componet/service/pedido.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/producto/model/producto.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/producto/model/producto.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-v2/src/app/features/component/producto/service/producto.api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/src/app/features/component/producto/service/producto.api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/categiria/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/controller/producto/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/dtopage/PageBasicResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plan/bk/dto/dtopage/PageBasicResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/controller/CategoriaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/plan/bk/controller/ProductoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-v2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front-v2/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +35,12 @@
     &quot;assignee&quot;: &quot;ifazaSalcedo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ifazaSalcedo/pruebaPalermo.git&quot;,
-    &quot;accountId&quot;: &quot;416e093a-d43b-4de6-904f-7f5d40e73f97&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ifazaSalcedo/pruebaPalermo.git",
+    "accountId": "aa7ee6df-ea5c-4788-9d89-b9f46b3f1077"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -74,22 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plantilla-rest-back [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.plantilla-rest-back [compile].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;repositorio-y-servicios&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/appJava/pruebas_tecnicas/palermo2/pruebaPalermo/bk&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Debug",
+    "Maven.plantilla-rest-back [clean].executor": "Run",
+    "Maven.plantilla-rest-back [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "repositorio-y-servicios",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ignacio/app-java/pruebaPalermo/bk",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.plan.bk.controller.producto" />
+      <recent name="com.plan.bk.controller.categiria" />
       <recent name="com.plan.bk.data.services.cliente" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -138,7 +125,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="repositorio-y-servicios" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

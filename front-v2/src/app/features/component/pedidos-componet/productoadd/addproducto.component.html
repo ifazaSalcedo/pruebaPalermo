@@ -62,7 +62,16 @@
     </tr>
 
   </table>
-
+  
+  <mat-paginator 
+    [pageSizeOptions]="[20,50]"
+    [length]="totalSize"
+    [pageSize]="pageSize"
+    [pageIndex]="currentPage"
+    showFirstLastButtons
+    aria-label="Seleccione a la pagina a visualizar"
+    (page)="onPageChange($event)">
+  </mat-paginator>
   <!-- <div>
     <h3>
       Click Log

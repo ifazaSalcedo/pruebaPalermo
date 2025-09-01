@@ -17,8 +17,13 @@ export class ProductoApiService {
 
 
 
-  getListProductosListaPrecios() :  Observable<any>{
-    return this.http.get<any>(`${this.uri}/listado-productos`)
+  getListProductosListaPrecios(page: number, size: number) :  Observable<any>{
+    return this.http.get<any>(`${this.uri}/listado-productos`, {
+      params : {
+        page: page, 
+        size: size
+      }
+    })
     .pipe(
       catchError(error => throwError(() => this.errorApi.handleError(error)))
     );
